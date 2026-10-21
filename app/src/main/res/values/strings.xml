@@ -1,0 +1,70 @@
+
+<resources>
+
+    <string name="app_name">Student Registration</string>
+    <string name="title">טופס הרשמת תלמיד</string>
+
+    <string name="first_name">שם פרטי</string>
+    <string name="last_name">שם משפחה</string>
+    <string name="email">כתובת אימייל</string>
+
+    <string name="grade_title">בחרו כיתה:</string>
+    <string name="grade10">י׳</string>
+    <string name="grade11">י״א</string>
+    <string name="grade12">י״ב</string>
+
+    <string name="major_title">בחרו מגמה:</string>
+    <string name="major_hint">בחרו מגמה</string>
+
+    <string-array name="majors">
+        <item>@string/major_hint</item>
+        <item>@string/major_computers</item>
+        <item>@string/major_physics</item>
+        <item>@string/major_biology</item>
+        <item>@string/major_chemistry</item>
+        <item>@string/major_electronics</item>
+    </string-array>
+
+    <string name="major_computers">מדעי המחשב</string>
+    <string name="major_physics">פיזיקה</string>
+    <string name="major_biology">ביולוגיה</string>
+    <string name="major_chemistry">כימיה</string>
+    <string name="major_electronics">אלקטרוניקה</string>
+
+    <string name="notifications">אני מאשר קבלת התראות</string>
+    <string name="terms">אני מאשר את תנאי השימוש</string>
+    <string name="terms_error">יש לאשר את תנאי השימוש</string>
+    <string name="register">הרשמה</string>
+
+    <string name="error_first_name">יש להזין שם פרטי</string>
+    <string name="error_last_name">יש להזין שם משפחה</string>
+    <string name="error_email_empty">יש להזין כתובת אימייל</string>
+    <string name="error_email_invalid">כתובת האימייל אינה תקינה</string>
+    <string name="error_grade">יש לבחור כיתה</string>
+    <string name="error_major">יש לבחור מגמה</string>
+
+    <string name="saved_title">הנתונים השמורים:</string>
+
+    <string name="result_first_name">שם פרטי: %1$s</string>
+    <string name="result_last_name">שם משפחה: %1$s</string>
+    <string name="result_email">אימייל: %1$s</string>
+    <string name="result_grade">כיתה: %1$s</string>
+    <string name="result_major">מגמה: %1$s</string>
+    <string name="result_notifications">קבלת התראות: %1$s</string>
+    <string name="result_terms">אישור תנאי שימוש: %1$s</string>
+    <string name="result_format">%1$s\n%2$s\n%3$s\n%4$s\n%5$s\n%6$s\n%7$s</string>
+
+    <string name="yes">כן</string>
+    <string name="no">לא</string>
+
+    <string name="saved_key">student_data</string>
+    <string name="saved_first_name">first_name</string>
+    <string name="saved_last_name">last_name</string>
+    <string name="saved_email">email</string>
+    <string name="saved_grade">grade</string>
+    <string name="saved_major">major</string>
+    <string name="saved_notifications">notifications</string>
+    <string name="saved_terms">terms</string>
+    <string name="saved_exists">has_saved_student</string>
+
+</resources>
